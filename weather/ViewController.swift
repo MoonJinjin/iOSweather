@@ -57,7 +57,7 @@ class ViewController: UIViewController {
             weatherImg.image = UIImage(named: "rainy")
         case "Clear":
             weatherImg.image = UIImage(named: "sunset")
-        case "Cloudy":
+        case "Clouds":
             weatherImg.image = UIImage(named: "cloudy")
         default:
             print(weather!.main)

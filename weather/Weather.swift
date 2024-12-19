@@ -61,26 +61,5 @@ class WeatherInfo {
             }
         }.resume()
     }
-    
-//    func getLocation(lat: Double, lon: Double) -> Void {
-//        let url = URL(string: "http://api.openweathermap.org/geo/1.0/reverse?lat=\(lat)&lon=\(lon)&limit=1&appid=\(apiKey)")
-//        guard let url = url else {
-//            return
-//        }
-//        
-//        URLSession.shared.dataTask(with: url) { data, response, error in
-//            guard let data = data, error == nil else {
-//                return
-//            }
-//            
-//            let locationResponse = try? JSONDecoder().decode(Location.self, from: data)
-//            
-//            if let locationResponse = locationResponse {
-//                print(locationResponse)
-//            } else {
-//                return
-//            }
-//        }.resume()
-//    }
 
 }
